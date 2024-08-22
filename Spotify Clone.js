@@ -7,7 +7,7 @@ let played = false;
 musicPlayer.classList.add('player-display-none-js');
 
 
-for (card of cards) {
+for (let card of cards) {
     card.addEventListener("mouseenter", function() {
         let greenPlay = document.createElement('div');
         greenPlay.classList.add('green-play');
